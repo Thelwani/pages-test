@@ -1,8 +1,8 @@
 fetch('data.json')
 .then(res=>res.json())
 .then(data=>{
-
   handeldata(data);
+
 })
 function handeldata(flats)
 {
@@ -107,7 +107,7 @@ function validateForm() {
       alert("رمز التحقق من الكابتشا غير صحيح");
       return false;
   }
-
+  
  
 
 }
